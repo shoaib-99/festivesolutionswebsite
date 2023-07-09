@@ -10,7 +10,7 @@ app.use(cors()); // Enable CORS
 app.use(bodyParser.json());
 
 // Connect to MongoDB Atlas
-mongoose.connect("mongodb+srv://festivesolutions:789bingo123@cluster0.obglovi.mongodb.net/", {
+mongoose.connect("MONGODB_URI", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
